@@ -1,0 +1,52 @@
+# Local operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE state
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unreal generated and local output
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Unreal/content payloads are not part of the public docs foundation
+Config/
+Content/
+Plugins/
+*.uasset
+*.umap
+*.patch
+
+# Secrets and private configuration
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+*.cer
+*credentials*
+*secret*
+*token*
+*password*
+
+# Logs and archives
+*.log
+*.tmp
+*.zip
+*.7z
+*.rar
