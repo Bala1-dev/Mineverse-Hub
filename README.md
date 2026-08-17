@@ -5,10 +5,10 @@ worlds, industrial systems, and policy-bound runtime behavior. The project is
 organized around auditable state, framework boundaries, validation contracts,
 resource-aware operations, and controlled extension points.
 
-This repository, `Mineverse-Hub`, is the clean public documentation and future
-approved open-core home for Mineverse. It is intended to host public framework
-interfaces, schemas, documentation, examples, and integration guidance after
-the open-core boundary has been reviewed and approved.
+This repository, `Mineverse-Hub`, is the clean public documentation and
+approved open-core home for Mineverse framework material. It is intended to
+host public framework interfaces, schemas, extension contracts, documentation,
+examples, and approved generic validation components.
 
 The following remain excluded from this public repository:
 
@@ -26,9 +26,15 @@ Repository roles:
 - `Mineverse-Tech`: private R&D, security, hardware, Oracle, and infrastructure
   repository
 - `Mineversehub`: private publication-staging and commercial source snapshot
-- `Mineverse-Hub`: clean public documentation and future approved open-core
-  repository
+- `Mineverse-Hub`: clean public documentation and approved open-core repository
 
-No source-code license grant has been issued for this repository. Do not treat
-this repository as open source until the open-core boundary and license have
-been explicitly approved.
+## License Boundary
+
+Approved open-core material published in this repository is licensed under the
+Apache License, Version 2.0. This grant is limited to the public interfaces,
+schemas, extension contracts, documentation, examples, and approved generic
+validation components contained in this repository.
+
+The license does not cover production gameplay, Oracle infrastructure, UNIT
+economy implementations, security systems, premium Fab modules, content assets,
+private configuration, or other commercial Mineverse technology.

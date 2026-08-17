@@ -16,5 +16,6 @@ The following must not be committed to this repository:
 - Unreal generated folders, binary assets, plugins, or marketplace content
 - Oracle, UNIT, operational security, or infrastructure implementation details
 
-Until an approved open-core license and scope are published, there are no
-supported public source-code releases in this repository.
+Apache-2.0 applies only to approved public open-core material in this
+repository. Security-sensitive implementation details and private operational
+technology remain outside the public license boundary.

@@ -1,10 +1,10 @@
 # Open Core Scope
 
-`Mineverse-Hub` is documentation-only at initialization. The proposed public
-open-core surface is under review and must not be populated with production
-source until the boundary and license are approved.
+`Mineverse-Hub` is the clean public home for approved Mineverse open-core
+framework material. Apache-2.0 applies only to material intentionally published
+in this repository within the approved scope below.
 
-Proposed public categories:
+Approved public categories:
 
 - framework contracts and extension points
 - schema definitions for safe external integration
@@ -12,6 +12,7 @@ Proposed public categories:
 - sanitized examples that do not copy production logic
 - developer guidance for approved public APIs
 - architecture notes that describe boundaries without exposing internal systems
+- approved generic validation components
 
 Excluded categories:
 
@@ -29,5 +30,7 @@ Candidate open-core material must be reviewed file by file before publication.
 Approved material should be authored or extracted into a clean public history,
 with no inherited private commits and no dependency on restricted assets.
 
-Apache-2.0 may be evaluated as a future open-core license candidate, but no
-license has been selected or granted yet.
+Apache-2.0 has been approved for the separately extracted Mineverse open-core
+interfaces, schemas, extension contracts, and approved generic validation
+components published through this repository. That approval does not extend to
+the excluded categories above.
