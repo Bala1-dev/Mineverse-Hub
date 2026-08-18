@@ -1,9 +1,10 @@
 # Security Policy
 
-`Mineverse-Hub` is currently a public documentation and boundary repository.
-It contains only approved open-core source, documentation, and boundary files.
-It does not contain production gameplay, credentials, runtime configuration,
-deployment material, or operational services.
+`Mineverse-Hub` is a public documentation, boundary, and approved open-core
+source repository. It contains the standalone `MineverseOpenCore` plugin plus
+sanitized consumer guidance and compile-test fixtures. It does not contain
+production gameplay, credentials, runtime configuration, deployment material,
+or operational services.
 
 Do not open public issues that contain secrets, tokens, private endpoints,
 customer data, unpublished security design, or exploit details. Use GitHub

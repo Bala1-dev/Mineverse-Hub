@@ -10,7 +10,7 @@ approved open-core home for Mineverse framework material. It is intended to
 host public framework interfaces, schemas, extension contracts, documentation,
 examples, and approved generic validation components.
 
-## Mineverse Open Core v0.1
+## Mineverse Open Core v0.1.0
 
 The first public source module is a standalone Unreal Engine 5.6 runtime
 plugin:
@@ -22,6 +22,16 @@ readings, drone adapters, UNIT-compatible node adapters, biome/resource rows,
 weapon metadata rows, and generic validation results. It has no content assets,
 private configuration, production gameplay module dependency, Marketplace
 dependency, or private service dependency.
+
+Compatibility:
+
+- Unreal Engine 5.6
+- Win64 validation target
+- C++ consumer projects
+
+Installation guidance is available in `Docs/GettingStarted.md`. A minimal
+sanitized consumer compile-test fixture is available in
+`Examples/ConsumerCompileTest`.
 
 The following remain excluded from this public repository:
 

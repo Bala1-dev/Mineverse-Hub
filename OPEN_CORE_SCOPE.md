@@ -4,13 +4,15 @@
 framework material. Apache-2.0 applies only to material intentionally published
 in this repository within the approved scope below.
 
-## Published v0.1 Surface
+## Published v0.1.0 Surface
 
 `MineverseOpenCore` is a standalone Unreal Engine 5.6 runtime plugin. It
 contains only public interfaces, schemas, extension contracts, and generic
 validation structures. It does not depend on production Mineverse modules,
 content assets, private configuration, Marketplace plugins, or private
-services.
+services. The `Examples/ConsumerCompileTest` fixture validates the public
+contracts from a sanitized external-consumer module without adding new
+production interfaces or implementation logic.
 
 Approved public categories:
 
