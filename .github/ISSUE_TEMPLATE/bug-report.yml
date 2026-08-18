@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a sanitized defect in the public Mineverse Open Core v0.1.x surface.
+title: "Bug: "
+labels: ["bug", "v0.1.x"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public bug reports must not include secrets, credentials, private endpoints, private paths, customer data, exploit details, or sensitive logs. Security-sensitive findings must use private vulnerability reporting.
+  - type: input
+    id: unreal-engine-version
+    attributes:
+      label: Unreal Engine version and source
+      placeholder: "UE 5.6.1, Epic Games Launcher"
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: true
+  - type: input
+    id: compiler-toolchain
+    attributes:
+      label: Compiler/toolchain
+      placeholder: "Visual Studio 2022, MSVC 14.xx, Windows SDK xx"
+    validations:
+      required: true
+  - type: dropdown
+    id: installation-method
+    attributes:
+      label: Installation method
+      options:
+        - Release ZIP copied to Plugins/MineverseOpenCore
+        - GitHub source checkout copied to Plugins/MineverseOpenCore
+        - Other sanitized method
+    validations:
+      required: true
+  - type: checkboxes
+    id: build-targets
+    attributes:
+      label: Build targets attempted
+      options:
+        - label: Win64 UnrealEditor Development
+        - label: Win64 UnrealGame Development
+        - label: Win64 UnrealGame Shipping
+  - type: dropdown
+    id: automation-test-result
+    attributes:
+      label: Automation-test result
+      options:
+        - Mineverse.OpenCore.Consumer.Contracts passed
+        - Mineverse.OpenCore.Consumer.Contracts failed
+        - Not attempted
+    validations:
+      required: true
+  - type: textarea
+    id: error-summary
+    attributes:
+      label: Error summary with credentials and private paths removed
+      description: Describe the defect and the smallest sanitized reproduction. Do not paste sensitive logs.
+      placeholder: "Expected behavior, actual behavior, and sanitized error summary."
+    validations:
+      required: true

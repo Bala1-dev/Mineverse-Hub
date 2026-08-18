@@ -12,6 +12,8 @@ examples, and approved generic validation components.
 
 ## Mineverse Open Core v0.1.0
 
+Current status: public beta prerelease.
+
 The first public source module is a standalone Unreal Engine 5.6 runtime
 plugin:
 
@@ -32,6 +34,22 @@ Compatibility:
 Installation guidance is available in `Docs/GettingStarted.md`. A minimal
 sanitized consumer compile-test fixture is available in
 `Examples/ConsumerCompileTest`.
+
+Release:
+
+- [`v0.1.0`](https://github.com/Bala1-dev/Mineverse-Hub/releases/tag/v0.1.0)
+
+Stabilization:
+
+- The v0.1 public API is frozen after `v0.1.0`.
+- v0.1.x permits only defect, documentation, packaging, security, and confirmed
+  Unreal Engine 5.6 compatibility fixes.
+- New interfaces or breaking changes require a future v0.2.0 review.
+
+Independent Unreal Engine 5.6 installation reports are welcome. Please follow
+the [`ExternalValidation`](Docs/ExternalValidation.md) checklist and submit a
+sanitized external validation report without credentials, private paths,
+sensitive logs, private endpoints, or production Mineverse material.
 
 The following remain excluded from this public repository:
 
