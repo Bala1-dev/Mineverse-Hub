@@ -1,0 +1,17 @@
+Mineverse Open Core
+Copyright 2026 Emmanuel Bala
+
+This repository contains approved public Mineverse open-core framework
+material published under the Apache License, Version 2.0.
+
+The Apache-2.0 license grant applies only to the public interfaces, schemas,
+extension contracts, documentation, examples, and approved generic validation
+components intentionally published in this repository.
+
+Production gameplay, Oracle infrastructure, UNIT economy implementations,
+security systems, premium Fab modules, content assets, private configuration,
+and other commercial Mineverse technology are excluded.
+
+Apache-2.0 does not grant branding or trademark rights beyond identifying the
+origin of the project. This notice does not claim that "Mineverse" is a
+registered trademark.
