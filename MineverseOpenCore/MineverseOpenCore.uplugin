@@ -1,0 +1,21 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Mineverse Open Core",
+  "Description": "Public Mineverse open-core interfaces, schemas, extension contracts, and generic validation types.",
+  "Category": "Mineverse",
+  "CreatedBy": "Emmanuel Bala",
+  "DocsURL": "https://github.com/Bala1-dev/Mineverse-Hub",
+  "SupportURL": "https://github.com/Bala1-dev/Mineverse-Hub/security",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MineverseOpenCore",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

@@ -10,6 +10,19 @@ approved open-core home for Mineverse framework material. It is intended to
 host public framework interfaces, schemas, extension contracts, documentation,
 examples, and approved generic validation components.
 
+## Mineverse Open Core v0.1
+
+The first public source module is a standalone Unreal Engine 5.6 runtime
+plugin:
+
+- `MineverseOpenCore/`
+
+The plugin contains approved interface and schema contracts for sensor
+readings, drone adapters, UNIT-compatible node adapters, biome/resource rows,
+weapon metadata rows, and generic validation results. It has no content assets,
+private configuration, production gameplay module dependency, Marketplace
+dependency, or private service dependency.
+
 The following remain excluded from this public repository:
 
 - production gameplay implementations
@@ -33,7 +46,8 @@ Repository roles:
 Approved open-core material published in this repository is licensed under the
 Apache License, Version 2.0. This grant is limited to the public interfaces,
 schemas, extension contracts, documentation, examples, and approved generic
-validation components contained in this repository.
+validation components contained in this repository. Source files include SPDX
+headers for the Apache-2.0 license.
 
 The license does not cover production gameplay, Oracle infrastructure, UNIT
 economy implementations, security systems, premium Fab modules, content assets,

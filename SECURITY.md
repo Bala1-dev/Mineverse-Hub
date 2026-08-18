@@ -1,7 +1,8 @@
 # Security Policy
 
 `Mineverse-Hub` is currently a public documentation and boundary repository.
-It does not contain production source, credentials, runtime configuration,
+It contains only approved open-core source, documentation, and boundary files.
+It does not contain production gameplay, credentials, runtime configuration,
 deployment material, or operational services.
 
 Do not open public issues that contain secrets, tokens, private endpoints,
@@ -15,6 +16,7 @@ The following must not be committed to this repository:
 - production configuration or service endpoints
 - Unreal generated folders, binary assets, plugins, or marketplace content
 - Oracle, UNIT, operational security, or infrastructure implementation details
+- production tests, private service integrations, or endpoint configuration
 
 Apache-2.0 applies only to approved public open-core material in this
 repository. Security-sensitive implementation details and private operational
