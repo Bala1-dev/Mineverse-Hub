@@ -8,6 +8,15 @@ validation is collected.
 
 ## Unreleased
 
+### Community and Engineering Notes
+
+- Record Mark 13 locomotion as provisionally accepted for demo progression;
+  this is not production acceptance.
+- Add community playtesting guidance and sanitized feedback intake.
+- Document the Universal Operator Action Framework as planned work.
+- State GPU-assisted validation restrictions as policy, without claiming
+  verified implementation.
+
 ### Stabilization
 
 - Freeze the v0.1 public API after `v0.1.0`.

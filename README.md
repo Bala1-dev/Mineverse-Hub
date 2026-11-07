@@ -14,6 +14,10 @@ examples, and approved generic validation components.
 
 Current status: public beta prerelease.
 
+The Mark 13 locomotion demo is provisionally accepted for demo progression.
+This is a limited demo milestone and does not indicate production readiness.
+Community playtesting is being organized to gather sanitized feedback.
+
 The first public source module is a standalone Unreal Engine 5.6 runtime
 plugin:
 
@@ -50,6 +54,17 @@ Independent Unreal Engine 5.6 installation reports are welcome. Please follow
 the [`ExternalValidation`](Docs/ExternalValidation.md) checklist and submit a
 sanitized external validation report without credentials, private paths,
 sensitive logs, private endpoints, or production Mineverse material.
+
+The Universal Operator Action Framework is planned work. Its design and
+implementation are not part of the published v0.1.0 plugin. GPU-assisted
+validation is restricted by engineering policy; this documentation does not
+assert that such validation is implemented or verified in this repository.
+
+Mineverse follows a security-first engineering doctrine: minimize exposed
+surface, keep public contracts auditable, validate changes against explicit
+boundaries, and keep credentials, operational controls, and sensitive
+implementation details private. Public reports must follow [SECURITY.md](SECURITY.md)
+and the sanitized reporting guidance in `Docs/CommunityTesting.md`.
 
 The following remain excluded from this public repository:
 

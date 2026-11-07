@@ -1,0 +1,45 @@
+name: Community feedback
+description: Share sanitized observations from approved community playtesting
+title: "[Community feedback]: "
+labels: ["community feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Mark 13 locomotion is provisionally accepted for demo progression only, not production-ready. Do not include secrets, private paths, customer or personal data, private implementation details, full logs, or sensitive security information. For security-sensitive findings, use the private reporting guidance in SECURITY.md.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safe disclosure
+      options:
+        - label: I have removed credentials, private endpoints, personal or customer data, private paths, and sensitive implementation details.
+          required: true
+        - label: This report describes an approved public demo and does not include private system or production testing.
+          required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: Describe the behavior in terms safe for a public issue.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Give concise steps using an approved public demo build. Do not include private project or machine paths.
+    validations:
+      required: false
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: General environment
+      description: Optional broad platform or build information; no machine identifiers or private configuration.
+    validations:
+      required: false
