@@ -15,6 +15,15 @@ implementations, operational security systems, premium Fab modules, content
 assets, private configuration, credentials, endpoints, or unpublished commercial
 Mineverse technology.
 
+Mineverse's engineering doctrine is security-first: keep public material
+reviewable, minimize exposed interfaces, and report sensitive findings through
+the private channels in `SECURITY.md`. Mark 13 locomotion is provisionally
+accepted for demo progression only; community playtesting does not establish
+production readiness. The Universal Operator Action Framework remains planned
+work. GPU-assisted validation restrictions are policy statements, not claims
+of a verified implementation in this repository. Do not contribute private
+designs, implementation details, or validation artifacts for restricted work.
+
 By submitting a contribution to this repository, you agree that the
 contribution is licensed under Apache-2.0 unless you clearly mark it as "Not a
 Contribution." You must have the right to submit the material.
